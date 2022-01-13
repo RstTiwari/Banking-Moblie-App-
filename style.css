@@ -1,0 +1,274 @@
+
+
+@media screen and (min-width:500px) {
+  .aumobile__header{
+      display: none;
+  }
+  .aumobile__welcome__section{
+      display: none;
+  }
+  .slideshow__container{
+      display: none;
+  }
+  .dot{
+      display: none;
+  }
+    
+  .aumobile__menu__section{
+      display: none;
+  }
+  .sidenvar__bar{
+      display: none;
+  }
+}
+
+@media screen and (max-width:500px) {
+    body{
+        box-sizing: border-box;
+        margin:0 0;
+        padding: 0 0;
+        background-color: #fceef1!important;
+        
+    
+        
+    }
+   
+    html {
+        overflow-x: hidden; 
+    overflow-y:scroll}
+   
+    
+    .aumobile__header{ /*header section design strts from here*/
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:20px;
+        
+        
+    }
+    .sticky__header{
+        position:fixed;
+        top:0;
+         width:100%;
+         z-index: 1;
+         background-color:#f1b5c2;
+         padding:10px;
+         border-bottom:  2px solid #f37435;
+        
+       
+    }
+    .aumobile__header__left{
+    flex: 1;
+    display:flex;
+
+
+    }
+    .aumobile__header__right{
+        display: flex;
+        justify-content:flex-end;
+       align-items: center;
+       
+    }
+    .notification{
+    padding:10px;
+    }
+    ion-icon{
+     font-size: 30px;
+     color:#240f27;
+     font-weight:600;
+    }  /*header section design Ends Here from here*/
+
+
+    .aumobile__welcome__section{ /*Welcome section Design Starts from here*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+ 
+}
+.welcome__note{
+ 
+    color:black;
+    font-size:23px;
+    font-weight:500;
+    
+    margin-bottom:-10px
+}
+.customer__note{
+    
+    color:black;
+    font-size:30px;
+    font-weight:500;
+    position:relative;
+}
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+
+
+/* Slideshow container */
+.slideshow-container {
+
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #f5e0dc!important;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index: 999;
+}
+.payment__area{
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+     height: 80px;
+     border-radius:100px;
+     margin:0 30px;
+     
+    
+     background-color:#F5F5F5;
+
+}
+.payment__area__info{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px 20px;
+    
+}
+.payment__title{
+
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     color:black;
+     font-size:15px;
+     font-weight:300;
+   
+
+}
+
+.payment__amount{
+    color:black;
+    font-weight:600;
+ 
+    
+   
+   
+
+}
+
+.dot.active , .dot:hover {
+  background-color:#f37435!important;
+}
+
+.aumobile__menu__section{
+    display:grid;
+    grid-template-columns:  auto auto auto;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+    background-color: white;
+    position: relative;
+    border-radius:50px;
+    box-shadow:2px 10px  2px 2px rgb(223, 219, 219);
+    column-gap: 20px;
+}
+.aumobile__menuicon__section{
+    text-align:center;
+    
+   
+}
+.aumobile__menuicon{
+    text-align:center;
+    background-color: #f5e0dc;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(223, 219, 219);
+    column-gap: 20px;;
+    
+}
+
+
+/*au mobile__navbar Design*/
+
+.menu{
+    cursor: pointer;
+    z-index: 1;
+}
+
+.close__btn{
+    float: right;
+    padding:10px
+}
+  .sidenvar__bar{
+    display: none
+}
+
+  .sidenvar__bar.active{
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+     
+     z-index:9999;
+     height:100%;
+     width: 75%;
+     justify-content: left;
+     align-items: left;
+     top: 0;
+     right: 0;
+     
+     background-color: #fff;
+    
+    
+     
+    
+     
+    
+
+    }
+   
+
+    }
+      .sidenvar__bar a{
+        text-decoration:none;
+        padding: 20px;
+        border-bottom: 1px solid #922da0;
+       
+    }
+
+
+    .aumobile__open  .sidenvar__bar a{
+        padding:20px;
+    }
+
+    
+   
+    
+
+.sidenvar__bar ion-icon{
+    font-size:20px;
+    text-align:left;
+}
+.nav__link{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+
+}
+
