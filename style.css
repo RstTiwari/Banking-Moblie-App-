@@ -20,6 +20,12 @@
   .sidenvar__bar{
       display: none;
   }
+  .payment__title{
+      display: none;
+  }
+  .payment__amount{
+      display: none;
+  }
 }
 
 @media screen and (max-width:500px) {
